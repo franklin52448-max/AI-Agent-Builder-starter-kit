@@ -1,0 +1,18 @@
+{
+  "name": "owockibot-agent-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for building AI agent tools on the owockibot bounty board ecosystem.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "demo:notify": "node src/bots/bountyNotificationBot.js",
+    "demo:treasury": "node src/bots/treasuryTracker.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
